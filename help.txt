@@ -1,0 +1,1 @@
+Get-UnifiedGroup | Sort-Object WhenCreated | Select DisplayName, ManagedBy, PrimarySmtpAddress, GroupMemberCount, WhenCreated | Export-csv -Path C:\Users\Ohana\Downloads\M365GroupReport\gr.csv -Encoding UTF8
